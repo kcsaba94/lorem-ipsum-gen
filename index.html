@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lorem ipsum generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="lorem-gen-container">
+        <label for="">Lorem ipsum bekezdések száma:</label>
+        <input type="text" size="4" maxlength="1" name="loremInput" id="loremInput">
+        <button class="btn" id="loremButton">Létrehozás</button>
+        <small>(A megengedett legnagyobb megadható bekezdésszám: 9)</small>
+        <br>
+        <p name="resultTxt" id="resultTxt"></p>
+    </div>
     
+    <script src="core.js"></script>
 </body>
 </html>
